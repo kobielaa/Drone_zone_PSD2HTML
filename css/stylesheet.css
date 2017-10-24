@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+header#main-page {
+  background: url("../img/bg.png") bottom center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  position: relative; }
+header#main-page .my-nav {
+  background-color: transparent !important;
+  box-shadow: none;
+  height: 85px;
+  display: flex; }
+header#main-page .my-nav .navbar-brand {
+  align-self: flex-end;
+  font-size: 30px; }
+header#main-page .my-nav .right-position {
+  justify-content: flex-end;
+  align-self: flex-end; }
+header#main-page .my-nav ul {
+  float: right; }
+header#main-page .my-nav a {
+  font-size: 13px;
+  padding-left: 14px; }
+header#main-page h1 {
+  font-size: 36px;
+  color: white;
+  padding-top: 100px;
+  font-weight: 500; }
+header#main-page p {
+  padding-top: 20px;
+  font-size: 16px;
+  width: 50%;
+  margin: 0 auto;
+  color: #e77832;
+  font-weight: 300; }
+header#main-page .button-gr {
+  display: inline-block;
+  margin: 64px auto; }
+header#main-page .button-gr .header-button {
+  padding: 10px 35px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid #e8835d;
+  color: white;
+  font-size: 15px; }
+header#main-page .button-gr .header-button:hover {
+  background-color: white;
+  color: #d32721; }
+header#main-page .button-gr .header-button .fa-play {
+  padding-right: 8px; }
+header#main-page .scroll-box {
+  position: absolute;
+  bottom: 60px;
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -42px; }
+header#main-page .scroll-box p {
+  font-size: 13px;
+  color: #e17e8a; }
+
+.scrollToTop {
+  bottom: 60px;
+  font-size: 32px;
+  font-weight: bold;
+  height: 50px;
+  display: none;
+  position: fixed;
+  right: 50px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  z-index: 9999;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+section#dron-proper {
+  padding-top: 110px;
+  text-align: center;
+  background-color: #f6f6f6; }
+section#dron-proper .photo-box {
+  display: flex;
+  height: 100px; }
+section#dron-proper .photo-box img {
+  margin: auto; }
+section#dron-proper h3 {
+  font-size: 30px;
+  padding-top: 5px;
+  background: -webkit-linear-gradient(right, #cb0035, #e7a078);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+section#dron-proper .button-price {
+  padding: 100px 0; }
+section#dron-proper .button-price a {
+  padding: 15px 40px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #425ea6; }
+
+#dron-nature {
+  position: relative;
+  padding-bottom: 25px; }
+#dron-nature .dron-text {
+  padding-top: 110px; }
+#dron-nature .dron-text h1 {
+  font-size: 40px;
+  font-weight: 400;
+  background: -webkit-linear-gradient(right, #cb0035, #e7a078);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+#dron-nature .dron-text .drone-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  z-index: -1;
+  width: 740px;
+  height: 570px; }
+#dron-nature .dron-text .drone-wrapper img {
+  width: 100%; }
+#dron-nature .points {
+  display: flex;
+  margin: 45px 0; }
+#dron-nature .points .round-number {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 1px solid #cad0e2;
+  border-radius: 50%;
+  display: flex; }
+#dron-nature .points .round-number .number-in {
+  margin: auto;
+  font-size: 22px;
+  font-size: bold; }
+#dron-nature .points .number-desc {
+  width: calc(100% - 50px);
+  float: left;
+  padding-left: 33px;
+  font-size: 14px;
+  color: #5e6372; }
+
+#dron-movies .no-padding {
+  padding: 0;
+  width: 100%;
+  height: 645px;
+  background: url("../img/photo-top.png") bottom center no-repeat; }
+#dron-movies .no-padding2 {
+  padding: 0;
+  width: 100%;
+  height: 645px;
+  background: url("../img/photo-bottom.png") bottom center no-repeat; }
+#dron-movies .movie-desc {
+  background-color: #f6f6f6; }
+#dron-movies .movie-desc h1 {
+  font-size: 40px;
+  font-weight: 400;
+  background: -webkit-linear-gradient(right, #cb0035, #e7a078);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 177px;
+  padding-left: 100px; }
+#dron-movies .movie-desc .left-desc {
+  padding-right: 100px; }
+#dron-movies .movie-desc .left-desc2 {
+  padding-right: 105px; }
+#dron-movies .movie-desc p {
+  padding-top: 35px;
+  padding-left: 81px;
+  padding-right: 30px;
+  font-size: 16px;
+  color: #5e6372; }
+
+#newsletter {
+  height: 490px;
+  background: url("../img/newsletter.png");
+  padding-top: 156px;
+  text-align: center; }
+#newsletter h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px; }
+#newsletter .search-form {
+  margin-top: 60px; }
+#newsletter .search-form a {
+  position: relative;
+  padding: 10px 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid;
+  color: #c61f19;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  left: -40px; }
+#newsletter .search-form input {
+  height: 41px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid #d65b4c;
+  padding-left: 33px; }
+#newsletter .search-form input::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 200; }
+
+#map-google {
+  height: 607px;
+  width: 100%;
+  background: url("../img/map.png") top center; }
+
+footer {
+  padding: 70px 20px;
+  text-align: center;
+  color: #a7acbc;
+  font-size: 16px; }
+
+@media (max-width: 767px) {
+  header#main-page {
+    height: 600px; }
+  header#main-page .my-nav .right-position {
+    justify-content: flex-end;
+    align-self: flex-end; }
+  header#main-page .my-nav ul {
+    float: left;
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.3); }
+  header#main-page .my-nav li {
+    width: 100%; }
+  header#main-page .my-nav a {
+    font-size: 13px;
+    padding-left: 14px; }
+  header#main-page .scroll-box {
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -42px; }
+
+  section#dron-proper {
+    padding-top: 30px; }
+
+  section#dron-nature .drone-wrapper {
+    display: none; }
+
+  section#dron-movies h1 {
+    padding-top: 40px !important; }
+  section#dron-movies .no-padding, section#dron-movies .no-padding2 {
+    height: 300px; } }
+@media (max-width: 400px) {
+  header#main-page {
+    height: 400px; }
+  header#main-page .my-nav ul {
+    float: left;
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.3); }
+  header#main-page .page-title {
+    padding-top: 20px;
+    font-size: 22px; }
+  header#main-page .title-descriptio {
+    font-size: 12px; }
+  header#main-page .scroll-box {
+    display: none; }
+  header#main-page .button-gr {
+    width: 100%; }
+  header#main-page .button-gr .header-button {
+    width: 50% !important;
+    padding: 10px 10px; }
+
+  section#newsletter .search-form {
+    display: inline-block;
+    text-align: center; }
+  section#newsletter input {
+    width: 150px !important; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
